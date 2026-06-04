@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  </head>
+
+<nav class="bg-gray-800 text-white p-6 flex justify-between items-center">
+    <a href="#" class="font-bold text-xl">
+        May weebsait
+    </a>
+
+    <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-yellow-300">Beranda</a></li>
+        <li><a href="../grid.html" class="hover:text-yellow-300">Grid</a></li>
+        <li><a href="../flex.html" class="hover:text-yellow-300">Flexbox</a></li>
+        <li><a href="../default.html" class="hover:text-yellow-300">Default</a></li>
+    </ul>
+
+</nav>
+
+  <body>
+
+    <h1 class="text-4xl font-bold text-center text-red-900 pb-4 mb-10">
+      belajar tailwind
+    </h1>
+
+    <section class="text-grey-200 p-5 text-center hover:bg-red-900 rounded-lg shadow m-30">
+      <h2 class="text-gray-700 bg-gray-200 p-4 rounded-lg">
+        <a href="landingPage.html" class="text-gray-800 text-center text-xl">
+          Landing Page
+        </a>
+      </h2>
+    </section>
+
+    <section class="bg-blue-200 p-10 text-center font-bold italic text-3xl rounded-lg shadow">
+      <h2 class="text-white">pading 40px di semua sisi</h2>
+    </section>
+
+    <section class="mt-8">
+      <div class="bg-red-200 mx-10 p-6 rounded-lg text-center font-bold text-5xl">
+        <p class="text-red-700">margin kiri kanan 40px, padding dalam 24px</p>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-10">
+      <div class="bg-red-600 p-6 rounded-lg shadow">
+        <p class="text-white">Card 1</p>
+      </div>
+      <div class="bg-yellow-400 p-6 rounded-lg shadow">
+        <p class="text-white">Card 2</p>
+      </div>
+      <div class="bg-green-600 p-6 rounded-lg shadow">
+        <p class="text-white">Card 3</p>
+      </div>
+      <div class="bg-blue-600 p-6 rounded-lg shadow">
+        <p class="text-white">Card 4</p>
+      </div>
+    </section>
+
+
+
+  </body>
+</html>
